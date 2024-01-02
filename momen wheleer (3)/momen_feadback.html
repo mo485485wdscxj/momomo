@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+<tr>
+    <th>whats your favourait name</th>
+
+    <td>
+        <label for="yes1">yes</label>
+        <input value="yes1" type="radio" for="yes1"  id="yes1" name="q1">
+        <label  for="no1">no</label>
+        <input value="no1" type="radio" for="no1" id="no1" name="q1">
+    </td>
+</tr>
+
+
+<tr>
+    <th>whate do you do</th>
+    <td>
+        <label for="yes2">yes</label>
+        <input value="yes2" type="radio" for="yes2" id="yes2" name="q2">
+        <label for="no2">no</label>
+        <input value="no2" type="radio" for="no2" id="no2" name="q2">
+    </td>
+</tr>
+
+
+<tr> <th>whats worng</th>
+    <td>
+        <label for="yes3">yes</label>
+        <input value="yes3" type="radio" for="yes3" id="yes3" name="q3" >
+        <label for="no3">no</label>
+        <input value="no3" type="radio" for="no3" id="no3" name="q3" >
+        <button onclick="validate()"> finished</button>
+
+    </td>
+</tr>
+
+<script>
+    var score =0;
+    function validate (){
+    if(document.getElementById('yes1').checked)
+    score++
+
+    if(document.getElementById('yes2').checked)
+    score++
+
+    if(document.getElementById('yes3').checked)
+    score++
+    
+    alert(score);
+    }
+</script>
+
+
+
+
+
+    
+</body>
+</html>

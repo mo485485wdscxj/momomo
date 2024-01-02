@@ -1,0 +1,126 @@
+ 
+section:not(:target) {
+    display: none;
+}
+.frame
+{
+   
+    border: 2px solid black;
+    width: 500px;
+    margin: 20px;
+    position: relative;
+    left: 50px;
+}
+
+
+section
+{
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+
+
+#flow
+{
+ height: 220px;
+    position: relative;
+    left: 800px;
+    bottom: 240px;
+
+}
+
+#ss
+{
+    width: 150px;
+    border-radius: 20px;
+
+}
+#buy
+{
+    background-color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: black;
+    position: relative;
+    left: 400px;
+    bottom: 20px;
+} 
+
+
+
+.posetion 
+{
+    position: relative;
+    bottom: 50px;
+}
+
+ 
+#sss
+{
+   width: 100px;
+   border-radius: 20px;
+}
+ 
+#ssv
+{
+    width: 125px;
+    border-radius: 20px;
+}
+
+#p
+{
+    position: relative;
+    bottom: 50px;
+    left: 160px;
+}
+
+.footer
+{
+
+    border: 3px solid black;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    position: relative;
+    top: 80px;
+
+}
+
+
+header
+{
+border: 2px solid black;
+height: 120px;
+text-align: center;
+font-size: 18px;
+}
+
+.qq
+{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(165, 129, 85, 0.885);
+    margin: 20px;
+}
+
+body
+{
+    background-color: rgb(159, 113, 5);
+    opacity: 50px;
+}
+
+#footer
+{
+    margin-left: 190px;
+    position: relative;
+    left: 100px;
+    
+
+}
